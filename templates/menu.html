@@ -1,0 +1,29 @@
+<ion-view title="Menu">
+    <ion-content padding="'false'" class="has-header">
+        <form class="list">
+            <label class="item item-input">
+                <i class="icon ion-search placeholder-icon"></i>
+                <input type="search" placeholder="">
+            </label>
+        </form>
+        <div class="button-bar">
+            <a href="#/page6" class="button button-stable button-block  icon-left ion-android-funnel">Filter</a>
+            <a href="#/page7" class="button button-stable button-block  icon ion-android-restaurant">Sort</a>
+        </div>
+        <ion-list ng-repeat="item in menu_items">
+            
+			<ion-item class="item-thumbnail-left" >
+                <img  ng-src="{{'img/'+ item.p_image_id +'.jpg'}}"  ng-click="showProductInfo(item.p_id,item.p_description,item.p_image_id,item.p_name,item.p_price)" >
+				
+				<p style="position:absolute;right:10px;">
+				<a  ng-click="addToCart(item.p_id,item.p_image_id,item.p_name,item.p_price)" class="button  button-balanced button-clear   icon ion-android-cart">  </a> 
+				</p>
+                
+				<h2  ng-click="showProductInfo(item.p_id,item.p_description,item.p_image_id,item.p_name,item.p_price)" > {{item.p_name}} </h2>
+                <p   ng-click="showProductInfo(item.p_id,item.p_description,item.p_image_id,item.p_name,item.p_price)">Price: ${{item.p_price}}</p>
+			</ion-item>
+			
+            
+        </ion-list>
+    </ion-content>
+</ion-view>
