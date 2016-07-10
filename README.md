@@ -1,5 +1,9 @@
 # Ionic Cordova Based Shopping Cart 
 
+##UPDATE (10-07-2016)
+[FoodKart v0.3](https://github.com/arjunsk/ionic-firebase-shopping-cart) is released. Read the complete [tutorial series here](http://www.arjunsk.com/tag/firebase/). 
+
+![FoodKart V0.3 ](https://raw.githubusercontent.com/arjunsk/ionic-firebase-shopping-cart/master/fk-latest.png)
 ![Food Cart ](http://i0.wp.com/www.arjunsk.com/wp-content/uploads/2016/02/bg_foodcart.png)
 
 ####UPDATE
