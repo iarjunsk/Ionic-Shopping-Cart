@@ -5,7 +5,7 @@
 ![FoodKart V0.3 ](https://raw.githubusercontent.com/arjunsk/ionic-firebase-shopping-cart/master/fk-latest.png)
 
 ####UPDATE (20-03-2016)
-![Food Cart ](https://raw.githubusercontent.com/arjunsk/shopping-cart/master/screenshots/screen.png)
+![Food Cart ](https://raw.githubusercontent.com/arjunsk/ionic-shopping-cart-2/master/%23SCREEN_SHOT/screen.png)
 [FoodKart V 0.2 ](https://github.com/arjunsk/shopping-cart)  is out.
 
 
